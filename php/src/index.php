@@ -12,7 +12,7 @@ $user = 'root';
 $pass = 'admin';
 
 // database name
-$mydatabase = 'php_user';
+$mydatabase = 'docker2';
 
 // check the MySQL connection status
 $conn = new mysqli($host, $user, $pass, $mydatabase);

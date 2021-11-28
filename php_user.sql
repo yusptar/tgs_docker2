@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `php_user`
+-- Database: `docker2`
 --
-CREATE DATABASE IF NOT EXISTS `php_user` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `php_user`;
+CREATE DATABASE IF NOT EXISTS `docker2` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `docker2`;
 
 -- --------------------------------------------------------
 
