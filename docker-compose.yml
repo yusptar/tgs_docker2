@@ -18,12 +18,12 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: php_user
+      MYSQL_DATABASE: docker2
     ports:
       - "3306:3306"
     volumes:
       - db:/var/lib/mysql
-      - ./php_user.sql:/docker-entrypoint-initdb.d/php_user.sql
+      - ./docker2.sql:/docker-entrypoint-initdb.d/docker2.sql
     networks:
       - backend
 
